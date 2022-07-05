@@ -1,0 +1,73 @@
+                                                                   *GIT NOTES*
+
+* GIT
+ Git is a distributed revision control and source code management system with an emphasis on speed.
+ Git was initially designed and developed by Linus Torvalds for Linux kernel development.
+ Git is a free software distributed under the terms of the GNU General Public License version 2.
+
+* GIT HUB
+  GitHub is a Git repository hosting service. GitHub also facilitates with many of its features, such as access control and collaboration.
+ It provides a Web-based graphical interface.GitHub is an American company.
+ It hosts source code of your project in the form of different programming languages and keeps track of the various changes made by programmers.
+ It offers both distributed version control and source code management (SCM) functionality of Git. 
+ It also facilitates with some collaboration features such as bug tracking, feature requests, task management for every project.
+
+*GIT VS SVN
+ Apache Subversion or SVN is one of the most popular centralized version control systems.
+ Now, SVN's popularity is on the decrease, but there are still millions of projects stored in it.
+ It can continue to be actively maintained by an open-source community. In SVN, you can check out a single version of the repository. 
+ It stores data in a central server.The drawback of the SVN is, it has the entire history on a local repository which limits you. 
+ You can only do commits, diffs, logs, branches, merges, file annotations, etc.
+* Git commands
+ There are many different ways to use Git. Git supports many command-line tools and graphical user interfaces.
+ The Git command line is the only place where you can run all the Git commands.
+
+ The following are some set of commands :
+ 
+ Git config command
+ This command configures the user. The Git config command is the first and necessary command used on the Git command line. 
+ This command sets the author name and email address to be used with your commits. 
+
+ Syntax
+
+  $ git config --global user.name "SrishitaReddy"  
+  $ git config --global user.email "srishitareddy@gmail.com"  
+  Git Init command
+  This command is used to create a local repository.
+
+Git init
+  The init command will initialize an empty repository.
+  Syntax  : $ git init Demo  
+
+Git clone 
+ This command is used to make a copy of a repository from an existing URL. 
+ If I want a local copy of my repository from GitHub, this command allows creating a local copy of that repository on your local directory from the repository URL.
+
+Syntax : $ git clone URL  
+
+Git add command
+ This command is used to add one or more files in git respository.
+
+Syntax : $ git add .  
+
+Git commit
+ This command changes the head. It records or snapshots the file permanently in the version history with a message.
+
+Syntax  : $ git commit -m " Commit Message"  
+
+Git push 
+ It is used to upload local repository content to a remote repository. Pushing is an act of transfer commits from your local repository to a remote repo.
+ It's the complement to git fetch, but whereas fetching imports commits to local branches on comparatively pushing exports commits to remote branches.
+ Remote branches are configured by using the git remote command.Pushing is capable of overwriting changes, and caution should be taken when pushing.
+
+Syntax:$ git push
+
+Git pull
+ Pull command is used to receive data from GitHub. It fetches and merges changes on the remote server to your working directory.
+
+Syntax  :  $ git pull URL  
+
+Git log Command
+ This command is used to check the commit history.
+
+Syntax  :  $ git log  
